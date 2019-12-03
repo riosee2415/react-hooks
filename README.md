@@ -1,4 +1,4 @@
-# nooks
+# hooks
 
 Collection of sexy Reacy Hooks ready to install with NPM
 

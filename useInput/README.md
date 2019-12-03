@@ -1,7 +1,7 @@
 # Usage
 
-<pre>
-import useInput from "@nooks/use-input"
+```js
+import useInput from "@nooks/use-input";
 
 const App = () => {
   const validator = value => !value.includes("@");
@@ -13,4 +13,4 @@ const App = () => {
     </div>
   );
 };
-</pre>
+```
