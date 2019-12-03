@@ -2,17 +2,17 @@
 
 Collection of sexy Reacy Hooks ready to install with NPM
 
-- [ ] useTitle
 - [x] useInput
-- [ ] usePageLeave
+- [x] useTabs
+- [x] useTitle
 - [ ] useClick
+- [ ] usePageLeave
 - [ ] useFadeIn
 - [ ] useFullscreen
 - [ ] useHover
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
-- [x] useTabs
 - [ ] usePreventLeave
 - [ ] useConfirm
 - [ ] useAxios
