@@ -5,7 +5,7 @@ Collection of sexy Reacy Hooks ready to install with NPM
 - [x] useInput
 - [x] useTabs
 - [x] useTitle
-- [ ] useClick
+- [x] useClick
 - [ ] usePageLeave
 - [ ] useFadeIn
 - [ ] useFullscreen
