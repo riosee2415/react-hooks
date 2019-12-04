@@ -30,15 +30,20 @@ function App() {
 ## Arguments
 
 <table>
-<th>
-  <td> Argument </td>
-  <td> Type </td>
-  <td> Description </td>
-  <td> Required </td>
-</th>
-<tr>
-  <td> title </td>
-  <td> string </td>
-  <td> The title you want to use on your document </td>
-  <td> YES </td>
+  <thead>
+    <tr>
+      <th> Argument </th>
+      <th> Type </th>
+      <th> Description </th>
+      <th> Required </th>
+    <tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> title </td>
+      <td> string </td>
+      <td> The title you want to use on your document </td>
+      <td> YES </td>
+    </tr>
+  </tbody>
 </table>
