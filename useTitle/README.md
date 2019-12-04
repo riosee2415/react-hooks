@@ -1,32 +1,44 @@
 # @4leaf-Hooks/use-title
 
+React Hooks to update your document's title.
+
+## installation
+
+- yarn
+
+  <pre>
+   yarn add @4leaf.ysh/use-title
+  </pre>
+
+- npm
+  <pre>
+   npm install @4leaf.ysh/use-title
+  </pre>
+
+## Usage
+
 ```js
-import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
+import useTitle from "@4leaf.ysh/use-title";
 
-const useTitle = initialTitle => {
-  const [title, setTitle] = useState(initialTitle);
-  const updateTitle = () => {
-    const htmlTitle = document.querySelector("title");
-
-    htmlTitle.innerText = title;
-  };
-  useEffect(updateTitle, [title]);
-  return setTitle;
-};
-
-const App = () => {
-  const titleUpdater = useTitle("Loading...");
-
-  setTimeout(() => titleUpdater("Home"), 2000);
-
-  return (
-    <div className="App">
-      <div>hello</div>
-    </div>
-  );
-};
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+function App() {
+  useTitle("Welcome");
+  return <h1>Welcome</h1>;
+}
 ```
+
+## Arguments
+
+<table>
+<th>
+  <td> Argument </td>
+  <td> Type </td>
+  <td> Description </td>
+  <td> Required </td>
+</th>
+<tr>
+  <td> title </td>
+  <td> string </td>
+  <td> The title you want to use on your document </td>
+  <td> YES </td>
+</table>
