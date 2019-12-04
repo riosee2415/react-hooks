@@ -14,4 +14,3 @@ Collection of sexy Reacy Hooks ready to install with NPM
 - [x] useScroll
 - [x] useFullscreen
 - [x] useNotification
-- [ ] useAxios

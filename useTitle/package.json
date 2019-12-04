@@ -1,6 +1,6 @@
 {
-  "name": "usetitle",
-  "version": "1.0.0",
+  "name": "@4leaf.ysh/use-title",
+  "version": "1.0.2",
   "description": "React hooks to update your document's title",
   "main": "index.js",
   "repository": {
