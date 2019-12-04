@@ -9,10 +9,9 @@ Collection of sexy Reacy Hooks ready to install with NPM
 - [x] useConfirm
 - [x] usePreventLeave
 - [x] useBeforeLeave
-- [ ] useFadeIn
+- [x] useFadeIn
+- [x] useNetwork
+- [x] useScroll
 - [ ] useFullscreen
-- [ ] useHover
-- [ ] useNetwork
 - [ ] useNotification
-- [ ] useScroll
 - [ ] useAxios
