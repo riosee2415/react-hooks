@@ -1,0 +1,27 @@
+{
+  "name": "usetitle",
+  "version": "1.0.0",
+  "description": "React hooks to update your document's title",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riosee2415/react-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "title",
+    "title",
+    "hooks"
+  ],
+  "author": "4leaf.ysh <4leaf.ysh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riosee2415/react-hooks/issues"
+  },
+  "homepage": "https://github.com/riosee2415/react-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
